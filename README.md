@@ -7,7 +7,7 @@ Uses azure blob storage for storing zipped test results file.
 Zipped files are unzipped on the fly when individual test results are requested.
 
 An api endpoint exists for monitoring web app availability, which will be used by azure traffic manager. The web app can be deployed to 
-azure web apps in different locations and the traffic manager performs load balancing by monitoring this api endpoint.
+multiple azure web apps presnt in different locations.The traffic manager can then perform load balancing by monitoring this api endpoint.
 
 API is documented using swagger.
 
